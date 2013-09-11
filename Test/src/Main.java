@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class Main{
@@ -73,7 +72,7 @@ public class Main{
 		while (aux.indexOf(',') != -1) {
 //la prima parcurgere daca aux este ="abc,def,ght" atunci aux3 devine "abc"
 			aux3 = aux.substring(0, aux.indexOf(','));
-//daca aux este "abc,def,ght" atunci devine def,ght
+//daca aux este "abc,def,ght" atunci devine "def,ght"
 			aux = aux.substring(aux.indexOf(',') + 1, aux.length());
 
 			if (verifica(aux3)) //verificam daca aux3 este o functie definita
