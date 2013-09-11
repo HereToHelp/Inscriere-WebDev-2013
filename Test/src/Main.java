@@ -66,8 +66,9 @@ public class Main{
 		
 
 		System.out.print("[");
-//functia indexOf returneaza pozitia caracterului , sau -1 in cazul in care aceasta nu se gaseste in strig
-//Copiem din aux in aux3 caracterele pana la prima virgula si apoi taiem din aux partea copiata
+//functia indexOf returneaza pozitia caracterului , sau -1 in cazul in care aceasta nu se gaseste in string
+//Parcurgem aux, copind din aux in aux3 caracterele pana la prima virgula si apoi taiem din aux partea copiata impreuna cu virgula
+//Repetam pana nu mai avem nicio virgula in aux 
 		
 		while (aux.indexOf(',') != -1) {
 //la prima parcurgere daca aux este ="abc,def,ght" atunci aux3 devine "abc"
