@@ -55,7 +55,7 @@ public class Main{
 		var=input.nextLine();
 		input.close();
 		
-	//Prelucram colectia citita de la tastatura in variabila auxiliara aux
+	//Prelucram colectia de functii citita de la tastatura in variabila auxiliara aux
 		aux=var;
 		aux = aux.replace("[", "");
 		aux = aux.replace("]", "");
